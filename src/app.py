@@ -1,0 +1,33 @@
+import streamlit as st
+from JobBot import JobBot
+
+print("Hello, World!")
+jb = JobBot.JobBot()
+
+# Initialize message history
+if "messages" not in st.session_state:
+   st.session_state.messages = [
+       {
+           "role": "assistant",
+           "content": "Hello! Ask me what kind of job you are looking for.",
+       }
+   ]
+
+# Display chat history
+for message in st.session_state.messages:
+   with st.chat_message(message["role"]):
+       st.markdown(message["content"])
+
+if prompt := st.chat_input("Your question..."):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+        print(prompt)
+
+    search_string = "software engineer"
+# Generate answer if API key is provided
+    with st.spinner("Thinking..."):
+        response = jb.find_job(search_string)
+    with st.chat_message("assistant"):
+        st.markdown(response)
+    st.session_state.messages.append({"role": "assistant", "content": response})

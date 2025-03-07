@@ -1,0 +1,87 @@
+Description
+Innova Solutions has a client that is immediately hiring for Application Developer
+
+Position type: Full Time Contract
+Duration: 06 months contract
+Location: Remote
+
+As an Application Developer you will:
+Develop system applications to coding standards and quality.
+Provide Quality Assurance testing and code reviews to prepare for system releases.
+Perform daily operations and maintenance tasks, to include attendance of daily standups, troubleshooting issues, responding to issue escalations, and debugging and documenting systems
+Collaborate with other developers to determine the optimal solution to ensure application efficiency, maintainability, and scalability.
+Technically manage project efforts in development, maintenance, and enhancements of business system applications.
+Develop system test plans, ensure software quality assurance (SQA) standards are achieved, and validate that business goals are accomplished.
+Complete tasks on a timely basis, according to commitments made to stakeholders and management.
+Report status to the appropriate Application Development Manager on a regular basis.
+Understand functional requirements of users. Translate those requirements into user experiences.
+Working knowledge in all stages of the Software Development LifeCycle: requirement gathering, design, development, testing and implementation
+ 
+The ideal candidate will have:
+Experience writing Typescript code in ReactJS (Material UI) & NodeJS for cloud native software applications using unit (Jest), integration, and E2E(Cypress) testing at the time of feature development
+Experience with building solutions leveraging Apollo GraphQL to connect various parts of the application together including Mongo Database
+Experience with automated delivery pipelines, agile delivery, and test-driven development
+Familiarity and experience with software design patterns
+Familiarity and experience with cloud native architectures (Google Cloud Platform)
+Debug components with limited assistance
+Perform all parts of the software lifecycle (e.g., coding, testing, deployment).
+Develop practical APIs, and abstractions per defined API contracts
+Demonstrated understanding of object-orientated design and programming techniques
+
+Qualified candidates should APPLY NOW for immediate consideration!  Please hit APPLY to provide the required information, and we will be back in touch as soon as possible.
+We are currently interviewing to fill this and other similar positions. If this role is not a fit for you, we do offer a referral bonus program for referrals that we successfully place with our clients, subject to program guidelines.   ASK ME HOW.
+Thank you!
+Umra Javed
+(678) 203-3342
+Umra.javed@innovasolutions.com
+
+PAY RANGE AND BENEFITS:
+Pay Range*:$70.00 - $75.00 per hour
+*Pay range offered to a successful candidate will be based on several factors, including the candidate's education, work experience, work location, specific job duties, certifications, etc.
+
+Benefits: Innova Solutions offers benefits( based on eligibility) that include the following: Medical & pharmacy coverage, Dental/vision insurance, 401(k), Health saving account (HSA) and Flexible spending account (FSA), Life Insurance, Pet Insurance, Short term and Long term Disability, Accident & Critical illness coverage, Pre-paid legal & ID theft protection, Sick time, and other types of paid leaves (as required by law), Employee Assistance Program (EAP).
+ 
+ABOUT INNOVA SOLUTIONS:Founded in 1998 and headquartered in Atlanta, Georgia, Innova Solutions employs approximately 50,000 professionals worldwide and reports an annual revenue approaching $3 Billion. Through our global delivery centers across North America, Asia, and Europe, we deliver strategic technology and business transformation solutions to our clients, enabling them to operate as leaders within their fields.
+
+Recent Recognitions:
+Named One of America’s Best Employers for New Grads by Forbes (2024)
+Named One of the Best Companies to Work For by U.S. News & World Report (Private Companies List, 2024-2025)
+One of the Largest IT Staffing Firms in the US – Ranked #3 by Staffing Industry Analysts (SIA, 2024)
+One of the Largest Staffing Firms in the US – Ranked #13 by Staffing Industry Analysts (SIA, 2024; includes Innova Solutions, Volt, & HireGenics)
+Named One of the Top Ten Private Companies in Atlanta by the Atlanta Business Chronicle (2023)
+One of the Largest Certified Minority Business Enterprises (MBEs) in the United States (NMSDC, 2024)
+AWS Advanced Tier Services Partner with 100+ certifications
+
+Website: https://www.innovasolutions.com/
+
+Innova Solutions is an Equal Opportunity Employer and prohibits any kind of unlawful discrimination and harassment. Innova Solutions is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment on the basis of race, color, religion or belief, national origin, citizenship, social or ethnic origin, sex, age, physical or mental disability, veteran status, marital status, domestic partner status, sexual orientation, or any other status protected by the statutes, rules, and regulations in the locations where it operates.  If you are an individual with a disability and need a reasonable accommodation to assist with your job search or application for employment, please contact us at hr@innovasolutions.com or (770) 493-5588. Please indicate the specifics of the assistance needed.  Innova Solutions encourages all interested and qualified candidates to apply for employment opportunities.   Innova Solutions (HireGenics/Volt) does not discriminate against applicants based on citizenship status, immigration status, or national origin, in accordance with 8 U.S.C. § 1324b.
+The company will consider for employment qualified applicants with arrest and conviction records in a manner that complies with the San Francisco Fair Chance Ordinance, the Los Angeles Fair Chance Initiative for Hiring Ordinance, and other applicable laws.
+
+Benefits: Innova Solutions offers benefits( based on eligibility) that include the following: Medical & pharmacy coverage, Dental/vision insurance, 401(k), Health saving account (HSA) and Flexible spending account (FSA), Life Insurance, Pet Insurance, Short term and Long term Disability, Accident & Critical illness coverage, Pre-paid legal & ID theft protection, Sick time, and other types of paid leaves (as required by law), Employee Assistance Program (EAP).
+
+
+ABOUT INNOVA SOLUTIONS: Founded in 1998 and headquartered in Atlanta, Georgia, Innova Solutions employs approximately 50,000 professionals worldwide and reports an annual revenue approaching $3 Billion. Through our global delivery centers across North America, Asia, and Europe, we deliver strategic technology and business transformation solutions to our clients, enabling them to operate as leaders within their fields.
+
+
+ Recent Recognitions:
+One of Largest IT Consulting Staffing firms in the USA – Recognized as #4 by Staffing Industry Analysts (SIA 2022)
+ClearlyRated® Client Diamond Award Winner (2020)
+One of the Largest Certified MBE Companies in the NMSDC Network (2022)
+Advanced Tier Services partner with AWS and Gold with MS
+
+Innova Solutions is an Equal Opportunity Employer and prohibits any kind of unlawful discrimination and harassment. Innova Solutions is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment on the basis of race, color, religion or belief, national origin, citizenship, social or ethnic origin, sex, age, physical or mental disability, veteran status, marital status, domestic partner status, sexual orientation, or any other status protected by the statutes, rules, and regulations in the locations where it operates.  If you are an individual with a disability and need a reasonable accommodation to assist with your job search or application for employment, please call (770) 493-5588. Please indicate the specifics of the assistance needed.  Innova Solutions encourages all interested and qualified candidates to apply for employment opportunities.   Innova Solutions (HireGenics/Volt) does not discriminate against applicants based on citizenship status, immigration status, or national origin, in accordance with 8 U.S.C. § 1324b.
+
+
+The company will consider for employment qualified applicants with arrest and conviction records in a manner that complies with the San Francisco Fair Chance Ordinance, the Los Angeles Fair Chance Initiative for Hiring Ordinance, and other applicable laws.
+
+
+Numbers & Facts
+Location	United States, NY (Remote)
+Job Type	Temporary, Contractor, Full-time
+Industry	Computer/IT Services
+Company Size	10,000 employees or more
+Year Founded	1998
+Additional Compensation	$70 - $75 per hour
+Website	https://www.innovasolutions.com/
+Benefits
+Employee Events, Paid sick days, Life Insurance, 401K, Medical, Dental and Vision, Long Term Disability
