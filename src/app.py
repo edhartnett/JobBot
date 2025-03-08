@@ -4,6 +4,10 @@ from JobBot import JobBot
 print("Hello, World!")
 jb = JobBot.JobBot()
 
+with st.sidebar:
+    if st.button("Find Job"):
+        jb.find_job_button()
+
 # Initialize message history
 if "messages" not in st.session_state:
    st.session_state.messages = [
@@ -24,10 +28,8 @@ if prompt := st.chat_input("Your question..."):
         st.markdown(prompt)
         print(prompt)
 
-    search_string = "software engineer"
-# Generate answer if API key is provided
     with st.spinner("Thinking..."):
-        response = jb.find_job(search_string)
+        response = jb.invoke(prompt)
     with st.chat_message("assistant"):
         st.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
