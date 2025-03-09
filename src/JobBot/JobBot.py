@@ -17,10 +17,10 @@ class JobBot:
     def __init__(self):
         self.model_initialized = False
 
-    def invoke(self, prompt: str):
-        if not self.model_initialized:
-            self.init_job_bot()
-        self.model.invoke(prompt)
+    # def invoke(self, prompt: str):
+    #     if not self.model_initialized:
+    #         self.init_job_bot()
+    #     self.model.invoke(prompt)
 
     def init_job_bot(self):
         self.build_find_graph()
@@ -33,6 +33,20 @@ class JobBot:
 
     def find_job_button(self):
         print("Find job pushed")
+        if not self.model_initialized:
+            self.init_job_bot()
+        thread = {
+            "configurable": {
+                "thread_id": "1",
+                "checkpoint_ns": "jobbot",
+                "checkpoint_id": "session_1"
+            }
+        }
+
+        initial_state = {"messages": [], "job_feedback": None}
+        for event in self.graph.stream(initial_state, thread):
+            print("Event:", event)
+
 
     def find_job(self, state: JobState):
         """ Node to find a job """
@@ -52,11 +66,12 @@ class JobBot:
         structured_llm = self.model.with_structured_output(JobModel)
         system_message = parse_instructions.format(job_feedback=job_feedback)
         print("invoking...")
-        result = structured_llm.invoke([SystemMessage(content=system_message)]+[content])
-        print(result)
+        #result = structured_llm.invoke([SystemMessage(content=system_message)]+[content])
+        #print(result)
 
         # Write messages to state
-        return result     
+        return {"messages": structured_llm.invoke([SystemMessage(content=system_message)]+[content]), "job_feedback": job_feedback}
+     
        
     def query_graph(self, query):
         if not self.model_initialized:
@@ -76,22 +91,23 @@ class JobBot:
         jobbot_graph.add_conditional_edges("human_feedback", self.find_job, ["find_job", END])
 
         memory = MemorySaver()
-        graph = jobbot_graph.compile(interrupt_before=['human_feedback'], checkpointer=memory)
+        self.graph = jobbot_graph.compile(interrupt_before=['human_feedback'], checkpointer=memory)
 
-        topic = "Find a job"
-        thread = {"configurable", {"thread_id": "1"}}
-        for event in graph.stream({"topic":topic}, thread, stream_mode=="values"):
-            print("review")
+        # topic = "Find a job"
+        # thread = {"configurable", {"thread_id": "1"}}
+        # for event in self.graph.stream({"topic":topic}, thread, self.stream_mode=="values"):
+        #     print("review")
 
-        further_feedback = input("Feedback?")
-        if (further_feedback =="no"):
-            further_feedback = None
+        # further_feedback = input("Feedback?")
+        # if (further_feedback =="no"):
+        #     further_feedback = None
 
-        graph.update_state(thread, {"job_feedback": further_feedback}, as_node="human_feedback")
+        # graph.update_state(thread, {"job_feedback": further_feedback}, as_node="human_feedback")
 
-        for event in graph.stream(None, thread, stream_mode="updates"):
-            print(next(iter(event.keys())))
+        # for event in graph.stream(None, thread, stream_mode="updates"):
+        #     print(next(iter(event.keys())))
 
-        final_state = graph.get_state(thread)
-        #report = final_state.values.get('final_report')
+        # final_state = graph.get_state(thread)
+        # #report = final_state.values.get('final_report')
         #print(report)
+        return True
