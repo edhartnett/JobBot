@@ -7,6 +7,14 @@ jb = JobBot.JobBot()
 with st.sidebar:
     if st.button("Find Job"):
         jb.find_job_button()
+        thread = {
+            "configurable": {
+                "thread_id": "1",
+                "checkpoint_ns": "jobbot",
+                "checkpoint_id": "session_1"
+            }
+        }
+        print(jb.graph.get_state(thread))
 
 # Initialize message history
 if "messages" not in st.session_state:

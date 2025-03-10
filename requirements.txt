@@ -7,3 +7,5 @@ wikipedia
 langchain-anthropic
 langchain-google-genai
 streamlit
+chromadb
+llama-index-embeddings-huggingface

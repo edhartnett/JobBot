@@ -66,11 +66,11 @@ class JobBot:
         structured_llm = self.model.with_structured_output(JobModel)
         system_message = parse_instructions.format(job_feedback=job_feedback)
         print("invoking...")
-        #result = structured_llm.invoke([SystemMessage(content=system_message)]+[content])
-        #print(result)
+        result = structured_llm.invoke([SystemMessage(content=system_message)]+[content])
+        print(result)
 
         # Write messages to state
-        return {"messages": structured_llm.invoke([SystemMessage(content=system_message)]+[content]), "job_feedback": job_feedback}
+        return {"description": "results", "job_feedback": job_feedback}
      
        
     def query_graph(self, query):
